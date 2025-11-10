@@ -1,70 +1,118 @@
-# 💱 Convert — Conversor de Moedas | Currency Converter
+# 💱 Convert — Conversor de Moedas / Currency Converter
+
+![Licença](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-concluído-green.svg)
 
 Aplicação web desenvolvida com **HTML, CSS e JavaScript**, que realiza conversões de moedas em tempo real utilizando a **AwesomeAPI**.  
-O sistema permite converter valores em **Dólar (USD)**, **Euro (EUR)** e **Libra (GBP)** para **Real (BRL)**, exibindo automaticamente a cotação atual e o horário da última atualização.
+*Web application developed with **HTML, CSS, and JavaScript**, which performs real-time currency conversions using **AwesomeAPI**.*
+
+O sistema permite converter valores em **Dólar (USD)**, **Euro (EUR)** e **Libra (GBP)** para **Real (BRL)**, exibindo automaticamente a cotação atual e o horário da última atualização.  
+*The system allows converting values from **Dollar (USD)**, **Euro (EUR)**, and **Pound (GBP)** to **Real (BRL)**, automatically displaying the current exchange rate and the time of the last update.*
 
 ---
 
-## 🚀 Tecnologias utilizadas | Technologies used
-- **HTML5** — estrutura da aplicação | app structure  
-- **CSS3** — estilização responsiva | responsive styling  
-- **JavaScript (ES6)** — lógica de conversão e integração com API | conversion logic and API integration  
-- **AwesomeAPI** — cotações em tempo real | real-time exchange data  
-  - Endpoint: `https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL`
+## 🌐 Demonstração ao Vivo / Live Demo
+
+Veja o projeto em funcionamento:  
+*See the project live:* 👉 [**Convert - Currency Converter**](https://camilodf.github.io/convert/)
 
 ---
 
-## 🧩 Funcionalidades | Features
-- Consulta automática das cotações (USD, EUR, GBP → BRL)  
-- Conversão instantânea do valor inserido pelo usuário  
-- Exibição da cotação atual e da hora da última atualização no rodapé  
-- Validação de entrada (aceita apenas números)  
-- Interface moderna e intuitiva  
+## 📷 Demonstração / Preview
 
----
-
-## 📷 Demonstração | Preview
 ![Preview do projeto](./img/app.png)
 
 ---
 
-## 🌐 Live Demo | Demonstração ao vivo
-Veja o projeto em funcionamento | See it live:  
-👉 [Convert - Currency Converter](https://camilodf.github.io/convert/)
+## 🚀 Tecnologias Utilizadas / Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
+- **API:** [AwesomeAPI](https://economia.awesomeapi.com.br/)
+- **Endpoint Utilizado:** `https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL`
 
 ---
 
-## ⚙️ Como executar o projeto | How to run locally
-1. **Clone este repositório | Clone this repository:**
-   ```bash
-   git clone https://github.com/seu-usuario/convert.git
+## 🧩 Funcionalidades / Features
 
-## 📂 Estrutura do projeto | Project structure
-/ (root)<br>
-├─ index.html<br>
-├─ css/<br>
-│  └─ style.css<br>
-├─ js/<br>
-│  └─ main.js<br>
-└─ assets/<br>
+- Consulta automática das cotações (USD, EUR, GBP → BRL)  
+  * *Automatic query for exchange rates (USD, EUR, GBP → BRL)*
+- Conversão instantânea do valor inserido pelo usuário  
+  * *Instant conversion of user-input value*
+- Exibição da cotação atual e da hora da última atualização no rodapé  
+  * *Displays the current rate and last update time in the footer*
+- Validação de entrada (aceita apenas números)  
+  * *Input validation (accepts numbers only)*
+- Interface moderna, responsiva e intuitiva  
+  * *Modern, responsive, and intuitive interface*
 
-## 🧠 Aprendizados | Learnings
+---
 
-Durante o desenvolvimento, trabalhei com:
-While developing this project, I worked with:
+## ⚙️ Como Executar Localmente / How to Run Locally
 
-Manipulação do DOM em JavaScript puro | DOM manipulation in vanilla JS
+1.  **Clone este repositório / Clone this repository:**
+    ```bash
+    git clone [https://github.com/camilodf/convert.git](https://github.com/camilodf/convert.git)
+    ```
+    *(Use o URL do seu repositório aqui)*
 
-Uso de APIs públicas com fetch() | Working with public APIs using fetch()
+2.  **Navegue até a pasta / Navigate to the folder:**
+    ```bash
+    cd convert
+    ```
 
-Formatação de moedas e datas no padrão brasileiro | Formatting currency and date in BR format
+3.  **Abra o `index.html` / Open `index.html`:**
+    Basta abrir o arquivo `index.html` no seu navegador de preferência.
+    * *Just open the `index.html` file in your preferred browser.*
 
-Organização de pastas e boas práticas de código | Folder organization and clean code practices
+---
 
-## 🪪 Licença | License
+## 🧠 Aprendizados / Learnings
 
-Projeto licenciado sob MIT License — sinta-se livre para usar e modificar.  
-This project is under MIT License — feel free to use and modify.
+Durante o desenvolvimento deste projeto, eu trabalhei com:  
+*While developing this project, I worked with:*
 
-👨‍💻 Desenvolvido por Camilo Dalcim Franzini  
-Developed by Camilo Dalcim Franzini
+- Manipulação do DOM em JavaScript puro  
+  * *DOM manipulation in vanilla JS*
+- Consumo de APIs públicas com `fetch()` e tratamento de dados JSON  
+  * *Consuming public APIs with `fetch()` and handling JSON data*
+- Formatação de moedas (`Intl.NumberFormat`) e datas (`Intl.DateTimeFormat`) no padrão brasileiro  
+  * *Formatting currency and dates to Brazilian standards*
+- Validação de formulários e lógica de eventos  
+  * *Form validation and event logic*
+- Organização de pastas e boas práticas de código  
+  * *Folder organization and clean code practices*
+
+---
+
+## 📂 Estrutura do Projeto / Project Structure
+
+Usei uma estrutura de pastas básica para separar responsabilidades.  
+*I used a basic folder structure to separate concerns.*
+
+<pre>
+/convert
+├── 📂 assets/
+│   └── (imagens, ícones, etc.)
+├── 📂 css/
+│   └── style.css
+├── 📂 js/
+│   └── main.js
+└── 📄 index.html
+</pre>
+
+---
+
+## 🪪 Licença / License
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.  
+*This project is under the MIT License. Feel free to use and modify.*
+
+---
+
+<p align="center">
+  Feito com ❤️ por Camilo Dalcim Franzini
+</p>
