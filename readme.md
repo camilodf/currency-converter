@@ -13,7 +13,7 @@ O sistema permite converter valores em **Dólar (USD)**, **Euro (EUR)** e **Libr
 ## 🌐 Demonstração ao Vivo / Live Demo
 
 Veja o projeto em funcionamento:  
-*See the project live:* 👉 [**Convert - Currency Converter**](currency-converter-one-nu-78.vercel.app/)
+*See the project live:* 👉 [**Convert - Currency Converter**](https://currency-converter-one-nu-78.vercel.app/)
 
 ---
 
